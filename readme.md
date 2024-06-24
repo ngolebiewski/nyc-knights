@@ -7,6 +7,8 @@ I decided to use a default wordpress template: twenty twenty, and create a child
 I thought everything would be Node and Javascript in the web, but here it is, this will seem so "legacy" when you read it.
 I made a github repo so you can grab all this code, since it is inacessable even if you ssh into the sever.
 https://github.com/ngolebiewski/nyc-knights
+
 All the best and watch out for the 4 move checkmate,
+
 Nick
 6-24-2024
