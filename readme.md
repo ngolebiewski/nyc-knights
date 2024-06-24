@@ -20,7 +20,7 @@ Nick
 - Add image logo for title, and adjust CSS to make it work in the design
 - Customize Header menu to drop the "Home" page and pages listed in the Footer.
 - Make single column content wider
-- Use a webfont from Adobe
+- Use a webfont from Adobe: https://fonts.adobe.com/fonts/greycliff-cf
 - Drop "powered by wordpress" from the footer
 
 # Plugins you need:
@@ -123,3 +123,6 @@ h1 {
     }
 }
 ```
+
+# The previous theme
+![previous wordpress theme 2010?-2024](previous-theme.png)
