@@ -1,0 +1,57 @@
+/*
+ Theme Name:   NYC Chess 2024 (twenty twenty theme mod)
+ Theme URI:    https://example.com/twentytwenty-nyc-chess/
+ Description:  The NYC Knights child theme for the Twenty Twenty theme.
+ Author:       Nick Golebiewski
+ Author URI:   https://tech.nickgolebiewski.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ Text Domain:  twentytwenty-nyc-chess
+ Screenshot:   screenshot.png
+*/
+
+/*
+Nice background blue: #b3ddf2
+/*
+
+/* Import the parent theme's stylesheet */
+@import url("../twentytwenty/style.css");
+
+/* Add your custom styles below */
+
+* {
+  font-family: "greycliff-cf", Helvetica, Futura, Arial, sans-serif !important;
+}
+
+h1 {
+  font-size: 3em !important;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2em !important;
+  }
+}
+
+.entry-content
+  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(
+    .is-style-wide
+  ) {
+  max-width: 75rem;
+  width: calc(100% - 4rem);
+}
+/* font-family: "greycliff-cf", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "greycliff-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: "greycliff-cf", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: "greycliff-cf", sans-serif;
+font-weight: 700;
+font-style: italic; */
