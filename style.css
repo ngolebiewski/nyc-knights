@@ -27,7 +27,7 @@
 
 /*
 Nice background blue: #b3ddf2
-/*
+*/
 
 /* Import the parent theme's stylesheet */
 @import url("../twentytwenty/style.css");
@@ -48,25 +48,53 @@ h1 {
   }
 }
 
-.entry-content
-  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(
-    .is-style-wide
-  ) {
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
   max-width: 75rem;
   width: calc(100% - 4rem);
 }
-/* font-family: "greycliff-cf", sans-serif;
-font-weight: 400;
-font-style: normal;
 
-font-family: "greycliff-cf", sans-serif;
-font-weight: 400;
-font-style: italic;
+@media (min-width: 700px) {
+  .singular .entry-header {
+    padding: 2rem 0;
+  }
+}
 
-font-family: "greycliff-cf", sans-serif;
-font-weight: 700;
-font-style: normal;
+@media screen and (min-width: 700px) {
+  .header-titles img.logo-img {
+    max-width: 33%; /* Make the logo half-width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  #header-logo {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
-font-family: "greycliff-cf", sans-serif;
-font-weight: 700;
-font-style: italic; */
+/* CSS for adjusting menu positioning */
+@media screen and (min-width: 1024px) {
+  .header-titles {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Spread items apart */
+  }
+  .header-navigation-wrapper {
+    flex: 1; /* Fill remaining space */
+  }
+}
+
+/* Media query for adjusting logo size */
+@media (max-width: 768px) {
+  .centered-logo {
+    max-width: 70%; /* Adjust the maximum width as needed */
+  }
+}
+
+@media (min-width: 1000px) {
+  .centered-logo {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .header-titles-wrapper {
+    max-width: 30%;
+  }
+}
