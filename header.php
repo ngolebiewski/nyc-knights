@@ -104,7 +104,7 @@
 									)
 								);
 							} elseif (!has_nav_menu('expanded')) {
-								$exclude_ids = array(4361, 400, 442, 448, 435, 446); // IDs of pages to exclude home, footer, contact, in the news
+								$exclude_ids = array(4, 4361, 400, 442, 448, 435, 446); // IDs of pages to exclude home, footer, contact, in the news
 
 								wp_list_pages(
 									array(
